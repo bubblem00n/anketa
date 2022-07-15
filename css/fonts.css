@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Finlandica-regular";
+    src: url(../fonts/Finlandica-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Finlandica-medium";
+    src: url(../fonts/Finlandica-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/RubikMoonrocks-Regular.ttf);
+}

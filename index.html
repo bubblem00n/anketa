@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета для друзей</title>
+  </head>
+  <body>
+    <section class="container">
+      <p class="heading">Анкета для друзей</p>
+      <p class="underheading">Отвечай на все мои вопросы честно!</p>
+      <form action="">
+        <div class="personal">
+          <div class="personal__questions">
+            <p>Как тебя зовут?</p>
+            <p>Сколько тебе лет?</p>
+            <p>Когда твой день рождения?</p>
+          </div>
+          <div class="personal__inputs">
+            <input type="text" />
+            <input type="number" />
+            <input type="date" />
+          </div>
+        </div>
+        <div class="selection">
+          <div class="gender">
+            <p>Как бы ты себя охарактеризовал/а?</p>
+            <div class="gender__inner">
+              <input type="radio" name="gender" value="he" /> Мужской пол
+            </div>
+            <div class="gender__inner">
+              <input type="radio" name="gender" value="she" /> Женский пол
+            </div>
+          </div>
+          <div class="zodiac">
+            <p>Выбери свой знак зодиака?</p>
+            <select name="zodiac-sign">
+              <option value="oven">Овен</option>
+              <option value="teles">Телец</option>
+              <option value="twins">Близнецы</option>
+              <option value="rak">Рак</option>
+              <option value="lev">Лев</option>
+              <option value="deva">Дева</option>
+              <option value="vesi">Весы</option>
+              <option value="skorpion">Скорпион</option>
+              <option value="streles">Стрелец</option>
+              <option value="koserog">Козерог</option>
+              <option value="vodoley">Водолей</option>
+              <option value="ribi">Рыбы</option>
+            </select>
+          </div>
+          <div class="color">
+            <p>Какой у тебя любимый цвет?</p>
+            <input type="color" />
+          </div>
+        </div>
+        <div class="questions">
+          <div class="questions__inner">
+            <div class="other__questions">
+              <p>Любимая еда?</p>
+              <p>Любимый фильм?</p>
+              <p>Любимый напиток?</p>
+            </div>
+            <div class="other__inputs">
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </div>
+          </div>
+          <div class="questions__inner">
+            <div class="other__inputs">
+              <input type="text" />
+              <input type="text" />
+              <input type="number" />
+            </div>
+            <div class="other__questions right">
+              <p>Твоё хобби?</p>
+              <p>Кем хочешь стать?</p>
+              <p>Твой номер телефона?</p>
+            </div>
+          </div>
+        </div>
+        <div class="adding">
+          <div class="range">
+            <label for="range"
+              >Какое у тебя настроение по шкале от 0 до 100?</label
+            >
+            <input name="range" type="range" min="0" max="100" value="50" />
+          </div>
+        </div>
+        <div class="last">
+          <div class="photo">
+            <p>Прикрепи своё фото на память</p>
+            <input type="file" />
+          </div>
+          <div class="sign">
+            <p>Дата и время заполнения</p>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="reset" class="reset">Стереть всё</button>
+          <button type="submit" class="submit">Отправить</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
